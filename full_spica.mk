@@ -170,6 +170,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/samsung/spica/prebuilt/spica/servicemodeapp/serviceModeApp.apk:system/app/serviceModeApp.apk
 
+# Java Esmertec Application
+#
+PRODUCT_COPY_FILES += \
+    device/samsung/spica/prebuilt/spica/java/Java.apk:system/app/Java.apk
+
 #
 # Bluetooth
 #
